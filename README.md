@@ -1,4 +1,4 @@
-            #CORONA HELP BOT
+            #corona bot
 This is a chatbot that will give answers to most of your corona-related questions/FAQ. The chatbot will give you answers from the data given by WHO(https://www.who.int/). This will help those who need information or help to know more about this virus.
 
 It uses a neural network with two hidden layers(enough for these QnA) that predicts which pattern matches the user’s question and sends it towards that node. More patterns can be added to the user’s questions to train it for more improved results and add more info about coronavirus in the JSON file. The more you train this chatbot the more it gets precise. The advantage of using deep learning is that you don’t have to ask the same question as written in the JSON file cause stemmed words from the pattern are matched with the user question
