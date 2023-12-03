@@ -1,0 +1,72 @@
+Code Explanation:
+
+1.The code first imports the necessary libraries.
+2.It then downloads the Punkt dataset.
+3.The next line creates a Stemmer object named stemmer.
+4.Next, the code loads the Punkt data into memory using the json library.
+5.The data is a list of strings, so the pickle module is used to load it into memory as a Python object.
+6.The next step is to print out the contents of the data object.
+7.This list contains information about each sentence in the dataset, including its intents (the task that was assigned to it), its training set (the data used to train the machine learning model), and its output (the results of applying that model).
+8.Finally, you use open() to create a file called data.pickle that will contain a copy of all of this information in JSON format.
+9.Next, you create an instance of Stemmer and call its stem() method.
+10.This method takes as input a string and returns a stemmed version of that string.
+11.In this case, stemmer will return all words in WHO except for “who’’ itself.
+12.Notice how stemmer uses regular expressions (regexes) to identify which words should be removed from WHO .
+13.You
+14.The code imports the necessary libraries and sets up a few variables.
+15.First, it downloads the Punkt dataset.
+16.Second, it imports the LancasterStemmer library to perform stemming.
+17.Finally, it loads the WHO data into memory using pickle.
+18.Next, the code creates a variable called words that stores all of the words in the WHO data file.
+19.Next, it creates a variable called l that stores the number of training examples in the WHO data file.
+20.Finally, it creates a variable called output that stores the results of stemming on the words in data.pickle .
+21.Now that everything is set up, let’s run some tests to see how well ourstem works!
+22.The code first creates an empty list, called words .
+23.It then uses the nltk.word_tokenizer function to tokenize the string “intents” , which is a list of patterns.
+24.Each pattern is represented by a Python object, and each object contains information about the word that it matches.
+25.Next, the code loops through each pattern in intents and extracts all of the words that it matches.
+26.The stemmer.stem() function converts all of these words into lowercase letters.
+27.The next step is to sort the list of words by their position in words .
+28.This allows us to easily find all of the unique word stems (i.e., all of the different lowercase letters that make up a word).
+29.Finally, l is created as a sorted list containing only unique word stems.
+30.The code first imports the necessary libraries, nltk.word_tokenizer and stemmer.
+31.Next, it loops through each purpose in the data set and extracts the patterns using nltk.word_tokenize().
+32.Next, words is created by merging all of the word tokens into a list.
+33.Finally, word stemming is performed on the list of words to produce a list of stemmed words.
+34.The code begins by initializing a few variables.
+35.The first is a TensorFlow graph, which will be used to train the model.
+36.Next, the input data (a list of stemmed words) is loaded into the graph.
+37.This data will be used to create a network of neurons that can learn to predict the stemmer output for any given word.
+38.The next step is to create two fully connected networks: one with 8 neurons and another with len(output) neurons.
+39.The activation function for these networks will be softmax, which means that each neuron will produce a probability score for each possible stemmer output value.
+40.Finally, the regression model is created using this data and trained on the TensorFlow graph.
+41.The code first initializes a new TensorFlow graph.
+42.This graph will be used to train and evaluate a model.
+43.Next, the input data is loaded into a TensorFlow variable called net .
+44.This data contains the list of stemmed words that we generated in the previous step.
+45.The fully connected layer network is then created using the tflearn library.
+46.The number of nodes in this network is set to 8, and the activation function is set to “softmax”.
+47.The next step is to create a regression model using the net variable.
+48.The regression model will be used to predict which word was associated with each stemmer output value.
+49.The code starts by loading the model.tflearn module.
+50.This is a library that contains the training and prediction code for the DNN model.
+51.The first thing the code does is fit the model on the training data.
+52.The training data is a set of examples that have been labeled with words.
+53.The code sets up a loop that goes through each example in the training data and labels it with one of the words in the vocabulary.
+54.Next, the code saves all of these labeled examples as a file called model.tflearn.
+55.Finally, it trains the model on this new dataset using a technique called gradient descent.
+56.This method helps to improve how well the model predicts future instances of data similar to those seen during training.
+57.After training has completed, you can make predictions using your trained model by calling its predict() function.
+58.You can also display some information about how well your predictions are doing by calling show_metric().”””)
+59.The code is used to train a machine learning model.
+60.The model is then used to make predictions on a new set of data.
+61.The first step is to load the model.tflearn module.
+62Next, you call the fit() function to train the model.
+63.Finally, you save the model using the save() function.
+64.Now that the model has been trained, you can use it to make predictions on a new set of data.
+65.To do this, you call the predict() function and provide a list of training data as well as a list of test data.
+66.The predict() function returns a prediction for each item in the list of training data.
+67.Finally, you can print out information about the model using the show_metric.
+
+for more information 
+mail id : sowmithrisiram7@gmail.com
